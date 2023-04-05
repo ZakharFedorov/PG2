@@ -1,0 +1,201 @@
+﻿  mesh.cpp
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(14,17): error C2065: 'GLuint': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(14,10): error C2923: 'std::vector': 'GLuint' is not a valid template type argument for parameter '_Ty'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(14): message : see declaration of 'GLuint'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(14,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(14,25): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(15,12): error C3646: 'VAO': unknown override specifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(15,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(16,12): error C3646: 'primitive': unknown override specifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(16,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(17,12): error C3646: 'shader_id': unknown override specifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(17,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(19,14): error C2061: syntax error: identifier 'GLuint'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(19,99): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(43,5): warning C4183: 'mesh_p_c': missing return type; assumed to be a member function returning 'int'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(20,9): error C2065: 'GLuint': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(20,16): error C2146: syntax error: missing ';' before identifier 'VAO'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(20,16): error C2065: 'VAO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(20,21): error C2065: 'VBO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(20,26): error C2065: 'EBO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(23,31): error C2065: 'VAO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(23,9): error C3861: 'glGenVertexArrays': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(24,26): error C2065: 'VBO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(24,9): error C3861: 'glGenBuffers': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(25,26): error C2065: 'EBO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(25,9): error C3861: 'glGenBuffers': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(26,27): error C2065: 'VAO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(26,9): error C3861: 'glBindVertexArray': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(27,22): error C2065: 'GL_ARRAY_BUFFER': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(27,39): error C2065: 'VBO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(27,9): error C3861: 'glBindBuffer': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(28,22): error C2065: 'GL_ARRAY_BUFFER': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(28,94): error C2065: 'GL_STATIC_DRAW': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(28,9): error C3861: 'glBufferData': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(29,22): error C2065: 'GL_ELEMENT_ARRAY_BUFFER': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(29,47): error C2065: 'EBO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(29,9): error C3861: 'glBindBuffer': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,22): error C2065: 'GL_ELEMENT_ARRAY_BUFFER': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,1): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,1): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,47): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,71): error C2065: 'GLuint': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,87): error C2663: 'std::vector<_Ty,_Alloc>::data': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,96): error C2065: 'GL_STATIC_DRAW': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(30,9): error C3861: 'glBufferData': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(31,37): error C2065: 'GL_FLOAT': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(31,47): error C2065: 'GL_FALSE': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(31,9): error C3861: 'glVertexAttribPointer': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(32,9): error C3861: 'glEnableVertexAttribArray': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(33,37): error C2065: 'GL_FLOAT': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(33,47): error C2065: 'GL_FALSE': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(33,9): error C3861: 'glVertexAttribPointer': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(34,9): error C3861: 'glEnableVertexAttribArray': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(37,22): error C2065: 'GL_ARRAY_BUFFER': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(37,9): error C3861: 'glBindBuffer': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(38,9): error C3861: 'glBindVertexArray': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(39,22): error C2065: 'GL_ELEMENT_ARRAY_BUFFER': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(39,9): error C3861: 'glBindBuffer': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(41,15): error C2039: 'VAO': is not a member of 'mesh'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(10): message : see declaration of 'mesh'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(41,21): error C2065: 'VAO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(42,9): error C2065: 'primitive': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(42,21): error C2065: 'GL_TRIANGLES': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(46,22): error C2065: 'shader_id': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(46,9): error C3861: 'glUseProgram': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(52,27): error C2065: 'VAO': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(52,9): error C3861: 'glBindVertexArray': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(53,24): error C2065: 'primitive': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(53,1): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(53,1): message : Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(53,35): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1534,49): message : see declaration of 'std::vector<_Ty,_Alloc>::size'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(53,51): error C2065: 'GL_UNSIGNED_INT': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\mesh.h(53,9): error C3861: 'glDrawElements': identifier not found
+  shader.cpp
+C:\Users\User\source\repos\PG2-Project\PG2-Project\shader.cpp(23,2): error C3861: 'getShaderInfoLog': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\shader.cpp(31,2): error C3861: 'getShaderInfoLog': identifier not found
+C:\Users\User\source\repos\PG2-Project\PG2-Project\shader.cpp(36,2): error C3861: 'getProgramInfoLog': identifier not found
+  App.cpp
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(3,10): fatal error C1083: Cannot open include file: 'callbacks.h': No such file or directory
+  pg2.cpp
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(3,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(3,5): error C2146: syntax error: missing ';' before identifier 'app'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(6,2): error C2065: 'app': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(7,9): error C2065: 'app': undeclared identifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(11,2): error C2653: 'glm': is not a class or namespace name
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(11,12): error C3646: 'position': unknown override specifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(11,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(12,2): error C2653: 'glm': is not a class or namespace name
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(12,12): error C3646: 'color': unknown override specifier
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(12,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(15,6): error C2039: 'vector': is not a member of 'std'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(15,12): error C2143: syntax error: missing ';' before '<'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\pg2.cpp(15,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  callbacks.cpp
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(2,6): error C2182: 'fbsize_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(2,22): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(2,34): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(2,42): error C2062: type 'int' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(3,6): error C2182: 'key_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(3,19): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(3,31): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(3,39): error C2062: type 'int' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(4,6): error C2182: 'cursor_position_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(4,31): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(4,43): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(4,51): error C2062: type 'double' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(5,6): error C2182: 'mouse_button_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(5,28): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(5,40): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(5,48): error C2062: type 'int' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(6,6): error C2182: 'scroll_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(6,22): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(6,34): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(6,42): error C2062: type 'double' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8,6): error C2182: 'GLAPIENTRY': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8,17): error C2146: syntax error: missing ';' before identifier 'MessageCallback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8,33): error C2065: 'GLenum': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8,40): error C2146: syntax error: missing ')' before identifier 'source'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(17,54): error C2556: 'App App::scroll_callback(double,double)': overloaded function differs only by return type from 'void App::scroll_callback(double,double)'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(12): message : see declaration of 'App::scroll_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(17,6): error C2371: 'App::scroll_callback': redefinition; different basic types
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(12): message : see declaration of 'App::scroll_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(19,14): error C2039: 'cout': is not a member of 'std'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(19,19): error C2065: 'cout': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(23,64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(23,64): error C2556: 'int App::key_callback(int,int,int,int)': overloaded function differs only by return type from 'void App::key_callback(int,int,int,int)'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(13): message : see declaration of 'App::key_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(23,6): error C2371: 'App::key_callback': redefinition; different basic types
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(13): message : see declaration of 'App::key_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(24,17): error C2065: 'GLFW_PRESS': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(24,43): error C2065: 'GLFW_REPEAT': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(28,8): error C2065: 'GLFW_KEY_ESCAPE': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(28,8): error C2131: expression did not evaluate to a constant
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(28,8): message : a non-constant (sub-)expression was encountered
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(29,29): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(29,37): error C2065: 'GLFW_TRUE': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(29,4): error C3861: 'glfwSetWindowShouldClose': identifier not found
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(31,8): error C2065: 'GLFW_KEY_V': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(31,8): error C2131: expression did not evaluate to a constant
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(31,8): message : a non-constant (sub-)expression was encountered
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,6): error C2182: 'scroll_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,6): error C2374: 'scroll_callback': redefinition; multiple initialization
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(6): message : see declaration of 'scroll_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,22): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,35): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,43): error C2062: type 'double' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,75): error C2143: syntax error: missing ';' before '{'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(41,75): error C2447: '{': missing function header (old-style formal list?)
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,6): error C2182: 'key_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,6): error C2374: 'key_callback': redefinition; multiple initialization
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(3): message : see declaration of 'key_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,19): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,31): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,39): error C2062: type 'int' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,84): error C2143: syntax error: missing ';' before '{'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(45,84): error C2447: '{': missing function header (old-style formal list?)
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(49,6): error C2182: 'mouse_button_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(49,6): error C2374: 'mouse_button_callback': redefinition; multiple initialization
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(5): message : see declaration of 'mouse_button_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(49,28): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(49,40): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(49,48): error C2062: type 'int' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(50,1): error C2143: syntax error: missing ';' before '{'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(50,1): error C2447: '{': missing function header (old-style formal list?)
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(54,6): error C2182: 'cursor_position_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(54,6): error C2374: 'cursor_position_callback': redefinition; multiple initialization
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(4): message : see declaration of 'cursor_position_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(54,31): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(54,43): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(54,51): error C2062: type 'double' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(55,1): error C2143: syntax error: missing ';' before '{'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(55,1): error C2447: '{': missing function header (old-style formal list?)
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(59,6): error C2182: 'fbsize_callback': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(59,6): error C2374: 'fbsize_callback': redefinition; multiple initialization
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(2): message : see declaration of 'fbsize_callback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(59,22): error C2065: 'GLFWwindow': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(59,34): error C2065: 'window': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(59,42): error C2062: type 'int' unexpected
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(60,1): error C2143: syntax error: missing ';' before '{'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(60,1): error C2447: '{': missing function header (old-style formal list?)
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(65,7): error C2039: 'cerr': is not a member of 'std'
+C:\Users\User\source\repos\PG2-Project\PG2-Project\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(65,12): error C2065: 'cerr': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,6): error C2182: 'GLAPIENTRY': illegal use of type 'void'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,6): error C2086: 'int GLAPIENTRY': redefinition
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8): message : see declaration of 'GLAPIENTRY'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,17): error C2146: syntax error: missing ';' before identifier 'MessageCallback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,17): error C2374: 'MessageCallback': redefinition; multiple initialization
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.h(8): message : see declaration of 'MessageCallback'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,33): error C2065: 'GLenum': undeclared identifier
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(70,40): error C2146: syntax error: missing ')' before identifier 'source'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(71,1): error C2143: syntax error: missing ';' before '{'
+\\shavit.ite.tul.cz\student\PG2\02cv\03 callback\callbacks.cpp(71,1): error C2447: '{': missing function header (old-style formal list?)

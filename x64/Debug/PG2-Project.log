@@ -1,0 +1,5 @@
+﻿  App.cpp
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(247): warning C4715: '<lambda_7db16f2b12df75a5928350f5e0b9f74d>::operator()': not all control paths return a value
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(260): warning C4715: '<lambda_685563d39e9443c9a0489b3b82568ab6>::operator()': not all control paths return a value
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(269): warning C4715: '<lambda_e938009a958977053b473becfd468d42>::operator()': not all control paths return a value
+  PG2-Project.vcxproj -> C:\Users\User\source\repos\PG2-Project\x64\Debug\PG2-Project.exe
