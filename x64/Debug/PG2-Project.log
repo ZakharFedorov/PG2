@@ -1,5 +1,6 @@
 ﻿  App.cpp
-C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(247): warning C4715: '<lambda_7db16f2b12df75a5928350f5e0b9f74d>::operator()': not all control paths return a value
-C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(260): warning C4715: '<lambda_685563d39e9443c9a0489b3b82568ab6>::operator()': not all control paths return a value
-C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(269): warning C4715: '<lambda_e938009a958977053b473becfd468d42>::operator()': not all control paths return a value
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(378,62): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(148): warning C4715: '<lambda_4f00e61338c7977d985f95904ae7e93d>::operator()': not all control paths return a value
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(161): warning C4715: '<lambda_dcd340479b970718266a3d8fca5fc2c7>::operator()': not all control paths return a value
+C:\Users\User\source\repos\PG2-Project\PG2-Project\App.cpp(170): warning C4715: '<lambda_46d60b9f0e7f5f29fad671b679a033cc>::operator()': not all control paths return a value
   PG2-Project.vcxproj -> C:\Users\User\source\repos\PG2-Project\x64\Debug\PG2-Project.exe
